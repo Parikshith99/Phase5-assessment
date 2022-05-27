@@ -1,0 +1,39 @@
+{
+  "events": [
+    {
+      "name": "Alive India In Concert with Javed Ali",
+      "date": "2022-05-28",
+      "address": "Phoenix Marketcity,Whitefield:Bangalore",
+      "description": "Alive India In Concert – India’s Longest Live Concert Series. AIIC today is India’s Biggest On-Ground Property Unifying India’s Leading Music Icons, Upcoming Singers, Musicians, Bands, Music Lovers all under one roof for a whole new live experience for the first time in India.",
+      "id": 1
+    },
+    {
+      "name": "National Conference on Business Management, Economics & Social Science",
+      "date": "2022-05-13",
+      "address": "Hotel Maya International Balmatta Rd, Bendoorwell, Kankanady, Mangaluru, Karnataka",
+      "description": "National Conference on Business Management, Economics & Social Science NCBMESS. NCBMESS addresses the rapid strides and technological advancements currently witnessed in the fields of . English is the official language of the conference. We welcome paper submissions. Papers presented in the conference will be submitted for inclusion into Conference proceedings.",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Supermoon ft B Praak King of Hearts Tour- Mumbai",
+      "address": "Jio World Garden,BKC:Mumbai",
+      "date": "2022-05-28",
+      "description": "The much-awaited, soul-soothing experience is coming to your city for the first time ever with Supermoon ft. B Praak – King of Hearts Tour! It’s time to embrace the soulful voice of B Praak and enter the world of pure magic with a live symphony."
+    },
+    {
+      "name": "Smartphone Photography - Unleash the Pro Mode",
+      "date": "2022-06-30",
+      "address": "watch on zoom",
+      "description": "Smartphone Photography - Unleash the Pro Mode, Lens, & External Applications: This part of the course is to learn how to operate the native camera application in the smartphones. As smartphone native camera doesn't provide you the flexibility on video making & we must need to switch to external camera applications, which are available in Google Play Store for Android operating system & Appstore for iPhones.",
+      "id": 4
+    },
+    {
+      "name": "jack",
+      "date": "2022-05-11",
+      "address": "dfgsha",
+      "description": "",
+      "id": 5
+    }
+  ]
+}
