@@ -49,17 +49,23 @@ function Home() {
             </tr>
           </thead>
           <tbody>
-            {events.map((event) => (
-              <tr
-                key={event.id}
-                onClick={() => history(`/viewEvent/${event.id}`)}
-              >
-                <th className="col-md-1">{event.id}</th>
-                <td className="col-md-5">{event.name}</td>
-                <td className="col-md-2">{event.date}</td>
-                <td className="col-md-4">{event.address}</td>
-              </tr>
-            ))}
+            {events.length > 0 ? (
+              events.map((event) => (
+                <tr
+                  key={event.id}
+                  onClick={() => history(`/viewEvent/${event.id}`)}
+                >
+                  <th className="col-md-1">{event.id}</th>
+                  <td className="col-md-5">{event.name}</td>
+                  <td className="col-md-2">{event.date}</td>
+                  <td className="col-md-4">{event.address}</td>
+                </tr>
+              ))
+            ) : (
+              <div className="text-center">
+                <h2>No result to display</h2>
+              </div>
+            )}
           </tbody>
         </table>
       </div>
